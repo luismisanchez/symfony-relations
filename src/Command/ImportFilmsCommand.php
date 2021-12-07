@@ -673,15 +673,6 @@ class ImportFilmsCommand extends Command
     }
 
     /**
-     * Call clean method on completion
-     */
-    public function __destruct()
-    {
-        $this->output->writeln("Cleaning temp files, please wait a moment...\r\n");
-        $this->clean();
-    }
-
-    /**
      * Create a temp file for each Director found with film dependencies
      *
      * @param mixed $film
@@ -723,6 +714,14 @@ class ImportFilmsCommand extends Command
                 fclose($resource);
             }
         }
+    }
+
+    /**
+     * Call clean method on completion
+     */
+    public function __destruct()
+    {
+        $this->clean();
     }
 
 }
