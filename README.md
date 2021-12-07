@@ -121,7 +121,7 @@ Versions used:
 
 #### Clone the project and install dependencies:
 ```
-git clone git@github.com:luismisanchez/imdb-easyadmin.git
+git clone https://github.com/luismisanchez/imdb-easyadmin.git
 cd imdb-easyadmin
 composer install
 ```
