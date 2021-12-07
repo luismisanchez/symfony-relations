@@ -44,7 +44,7 @@
 
 This exercise is intended to test Symfony capabilities creating CRUD controllers and commands. This is why almost all the code is oriented to work under a Symfony, doctrine and provided CrudControllers methods approach.
 
-To gain some performance and limit RAM consuming as much as possible we decided to chunk the large .csv dataset provided in smaller parts and create temp files to store dependencies found in the file. This will create a huge number of small files under project's `ver/temp` directory (hopefully if it works fine it will self clean at completion). These small files are easier to manage by the command instead of trying to manage the big one provided.
+To gain some performance and limit RAM consuming as much as possible we decided to chunk the large .csv dataset provided in smaller parts and create temp files to store dependencies found in the file. This will create a huge number of small files under project's `var/temp` directory (hopefully if it works fine it will self clean at completion). These small files are easier to manage by the command instead of trying to manage the big one provided.
 
 We have also set a 256Mb RAM max limit and disabled SQLLogger in the command `__constructor()` for performance optimization.
 
