@@ -1,0 +1,13 @@
+{% for entity in field.value %}
+    {%- set url = ea_url()
+        .setController('App\\Controller\\Admin\\FilmsCrudController')
+        .setAction('detail')
+        .setEntityId(entity.id)
+    -%}
+    <a href="{{ url }}">
+        {{ entity.title }}{% if not loop.last %}, {% endif %}
+    </a>
+{% else %}
+    <span class="badge badge-secondary">None</span>
+{% endfor %}
+

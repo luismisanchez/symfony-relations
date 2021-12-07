@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a99b4e6c-992b-42d2-a4b0-2be392e30514" name="192.168.1.11">
+        <fileTransfer rootFolder="/home/luismi/imdb-easyadmin" accessType="SFTP" host="192.168.1.11" port="22" sshConfigId="0779b5a5-7e37-43e5-860d-3e5731acb817" sshConfig="luismi@192.168.1.11:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

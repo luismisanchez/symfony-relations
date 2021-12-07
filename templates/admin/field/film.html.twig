@@ -1,0 +1,7 @@
+{%- set url = ea_url()
+    .setController('App\\Controller\\Admin\\FilmsCrudController')
+    .setAction('detail')
+    .setEntityId(entity.instance.id) -%}
+<a href="{{ url }}">
+    {{ entity.instance.title }}
+</a>
