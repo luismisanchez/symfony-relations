@@ -1,5 +1,4 @@
-# Symfony exercise
-### A ManyToMany relations backend and large dataset (.csv) import Command.
+# Symfony exercise: A ManyToMany relations backend and large dataset (.csv) import Command.
 
 This article is published in https://luismi.sanchezarteaga.es/symfony-many-to-many-relations-backend-and-large-dataset-csv-import-command/
 
